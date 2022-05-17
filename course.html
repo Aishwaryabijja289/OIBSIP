@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio-Aishwarya Bijja</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,100;1,200;1,300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+    </head>
+    <body> 
+     <section class="sub-header">
+           <nav>
+            <a href="index.html"><img src="images\Portfolio.hu_full_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Services</a></li>
+                    <li><a href="blog.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+           </nav>
+          <h1>Services</h1>
+     </section>
+
+
+      <!----------------Facilities----------------------->
+      <section class="facilities">
+        <h1>Services</h1>
+        <p> Lets see what i've got</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                    <h3>Web designing & developing</h3>
+                    <p> I am well experienced web desginer. i have completed an intership before. i have worked on 2 websites as well. I have created small projects on Web designing and developing.</p>
+            </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                        <h3>Languages</h3>
+                        <p> I am learning Python, Java. I have done small projects on it. </p>
+                </div>
+                    <div class="facilities-col">
+                        <img src="images\cafeteria.jpg">
+                            <h3>Extra</h3>
+                            <p> As I am working with a company in which i have knowledge of various fields realted to bussiness. </p>
+                     </div>
+        </div>
+        
+    </section>
+     
+
+
+
+
+          <!---------------------------------- Footer -------------------------------------->
+ 
+        <section class="footer">
+           <h4>About Myself</h4>
+           <p> </p>
+             <div class="icons">
+              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+              <li><a href="https://twitter.com/"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+              </div>
+             <p>Copyright © 2021-2022 Aishwarya Bijja. All Rights Reserved</p>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!----------------JavaScript for Toggle Menu-------->
+      
+        <script>
+          var navLinks = document.getElementById("navLinks");
+
+          function showMenu(){
+         navLinks.style.right = "0";
+         }
+         function hideMenu(){
+         navLinks.style.right = "-200px";
+         }
+
+        </script>
+    </body>
+</html>

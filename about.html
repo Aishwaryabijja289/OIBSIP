@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio-Aishwarya Bijja</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,100;1,200;1,300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+    </head>
+    <body> 
+     <section class="sub-header">
+           <nav>
+            <a href="index.html"><img src="images\Portfolio.hu_full_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Services</a></li>
+                    <li><a href="blog.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+           </nav>
+          <h1>About Myself</h1>
+     </section>
+
+
+     <!-------------------------about us content -------------------------------->
+        
+     <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Who I Am</h1>
+                <p>I am an Under-graduate student.<br>
+                    <br>
+                    I am Currently pursuing a B.tech(Engineering) Degree in Computer Science & Engineering. <br>
+                   <br>
+                  From the college name NCER, Pune<br>
+                   <br>
+                    I am a Third year student wanted to became a CSA.<br>
+                    <br>
+                    I am proficient in HTML, CSS & JS & Bootstarp. apart from that I am also learning Python. Apart from my technical skills. I love to surfing the Internet and so on.</p>
+
+                  <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+
+     </section>
+
+
+
+
+          <!---------------------------------- Footer -------------------------------------->
+ 
+        <section class="footer">
+           <h4>About Myself</h4>
+           <p></p>
+             <div class="icons">
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+              </div>
+             <p>Copyright © 2021-2022 Aishwarya Bijja. All Rights Reserved</p>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!----------------JavaScript for Toggle Menu-------->
+      
+        <script>
+          var navLinks = document.getElementById("navLinks");
+
+          function showMenu(){
+         navLinks.style.right = "0";
+         }
+         function hideMenu(){
+         navLinks.style.right = "-200px";
+         }
+
+        </script>
+    </body>
+</html>

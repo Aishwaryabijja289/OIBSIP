@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Aishwarya Bijja</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,100;1,200;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+</head>
+<body> 
+           <section class="header">
+                  <nav>
+                    <a href="index.html"><img src="images\Portfolio.hu_full_logo.png"></a>
+                    <div class="nav-links" id="navLinks">
+                     <i class="fas fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="course.html">Services</a></li>
+                            <li><a href="blog.html">Skills</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                      <i class="fas fa-bars" onclick="showMenu()"></i>
+                 </nav>
+<div class="text-box">
+    <h3>Hello, I am</h3>
+    <h1>Aishwarya Bijja</h1>
+    <p>An aspiring Web developer. </p>
+
+    <a href="about.html" class="hero-btn">Resume</a>
+</div>
+
+
+    </section>
+
+<!----------------------  course -------------------->
+ 
+<section class="course">
+    <h1>Education Qualification</h1>
+    <p>Please find below </p>
+
+
+  <div class="row">
+      <div class="course-col">
+          <h3>Secondary</h3>
+          <p>I completed my Secondary School (SSC-10th) from KHS School, Solapur.
+              with the 82%. </p>
+      </div>
+      <div class="course-col">
+        <h3>Higher Secondary</h3>
+        <p>I completed my Higher Secondary/ Diploma in Information Technology department from 
+            Dr. D. Y. Patil Polytechnic, Pune. with 87.13% agreegate.</p>
+    </div>
+    <div class="course-col">
+        <h3>Under-Garduation</h3>
+        <p>Right now I am Pursuing my Under Graduation Studies in Computer Science department from NCER, Pune. </p>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+<!---------- Testimonials-------------------->
+
+<section class="testimonials">
+    <h1>What People Say</h1>
+    <p>Let's know what people say about me</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>She is a Dreamer, She is a Believer, She is a Doer, She is an Achiever and that She is 'You'. </p>
+                 <h3>Mother- Ms. Kalyani</h3>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-o"></i>
+            </div>    
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+                <p>Tend to be well-organized, with good time-management skills, which is why she turn in neat and tidy work on time. 
+                    She also tend to be well-behaved. </p>
+                 <h3>Father- Mr. Chandrakant</h3>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+            </div>    
+        </div>
+           
+    </div>
+</section>
+
+<!----------------------would you like to ----------------------------------------->
+
+<section class="cta">
+    <h1>Enroll to know me<br> Anywhere from the World</h1>
+    <a href="contact.html" class="hero-btn">CONTACT</a>
+</section>
+
+<!---------------------------------- Footer -------------------------------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>  </p>
+        <div class="icons">
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+        </div>
+        <p>Copyright © 2021-2022 Aishwarya Bijja. All Rights Reserved</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!----------------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
